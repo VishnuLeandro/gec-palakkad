@@ -29,29 +29,28 @@ input[type=submit]:hover {
 	
 		
 <div class="container">
-<form method="POST">
+<form action="show.php" method="POST" enctype="multipart/form-data" >
 			
 <table>
 				
 <tr>
 					
-<td>user_id</td>
+<td>Name</td>
 					
-<td><input type="text" name="user_id"/></td>
+<td><input type="text" name="name"/></td>
 				
 </tr>
-				
-<tr>
+		<tr>
 					
 <td>password</td>
 					
 <td><input type="password" name="password"/></td>
 				
-</tr>
+</tr>		
 				
 <tr>
 
-<td><input type="submit" value="login"/></td>
+<td><input type="submit" formmethod="post" value="login"/></td>
 </br>					
 <td style="white-space:pre;"><a href="reset.php"><u>Forgot password?</u></td>
 				
