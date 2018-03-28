@@ -1,6 +1,6 @@
 <?php
 
-$link = mysqli_connect("localhost", "root", "", "gec");
+$link = mysqli_connect("localhost", "id5213884_root", "ABCD1234", "id5213884_gecskp");
  
 
 if($link === false){

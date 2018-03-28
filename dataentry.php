@@ -8,7 +8,7 @@ $mobile=$_POST['mobile'];
 $branch=$_POST['branch'];
 $semester=$_POST['semester'];
 $address=$_POST['address'];
-$link = mysqli_connect("localhost", "root", "", "gecskp");
+$link = mysqli_connect("localhost", "id5213884_root", "ABCD1234", "id5213884_gecskp");
 if($link === false){
     die("ERROR: Could not connect. " . mysqli_connect_error());
 }
