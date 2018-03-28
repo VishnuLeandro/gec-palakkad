@@ -3,12 +3,32 @@
 <head>
 		
 <title>form-submission</title>
+<style>
+input[type=submit] {
+    background-color: #000080;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #000000;
+}
+.container {
+    border-radius: 5px;
+    background-color: #FFFF00;
+    padding: 400px;
+}
+</style>
+
 </head>
 	
-<body background="./bg.jpg" text=#FFFFFF>
+<body background="./bg.jpg" text=#000000>
 	
 		
-</div>
+<div class="container">
 <form method="POST">
 			
 <table>
@@ -32,7 +52,7 @@
 <tr>
 
 <td><input type="submit" value="login"/></td>
-					
+</br>					
 <td style="white-space:pre;"><a href="reset.php"><u>Forgot password?</u></td>
 				
 </tr>
@@ -40,6 +60,6 @@
 </table>
 			
 </form>
-	
+</div>	
 </body>
 </html>		
